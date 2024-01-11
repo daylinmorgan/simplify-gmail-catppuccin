@@ -68,6 +68,7 @@
       --color-itemBg: @crust;
       --color-bundle-bg: @surface0;
       --color-bundle-border: @accent-color;
+      --color-selected-focused: @accent-color;
     }
   }
 
