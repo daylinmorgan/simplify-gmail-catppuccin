@@ -61,6 +61,7 @@
     @mantle: @catppuccin[@@lookup][@mantle];
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
+
     html.simplify {
       --color-itemFont: @text;
       --color-themeBg: @base;
@@ -68,7 +69,11 @@
       --color-itemBg: @crust;
       --color-bundle-bg: @surface0;
       --color-bundle-border: @accent-color;
-      --color-selected-focused: @accent-color;
+      --color-selected-focused: @overlay0;
+    }
+    html.simplify.darkTheme .yO.x7  .x7 {
+      color: @text;
+      background: @overlay0;
     }
   }
 
